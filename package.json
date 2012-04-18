@@ -1,19 +1,13 @@
 {
   "author": "Howard Abrams <howard.abrams@gmail.com> (http://www.github.com/howardabrams)",
-  "name": "node-mocks-http",
+  "contributors": [
+    { "name": "Meg Sharkey", "email": "meg@metamarkets.com" }
+  ],
+  "name": "express-mocks-http",
   "description": "Mock 'http' objects for testing Express routing functions",
   "version": "0.0.6",
   "homepage": "http://www.github.com/howardabrams/node-mocks-http",
   "keywords": [
-               "mock",
-               "stub",
-               "dummy",
-               "nodejs",
-               "js",
-               "testing",
-               "test",
-               "http",
-               "http mock"
              ],
     "repository": {
     "type": "git",
@@ -22,5 +16,8 @@
   "main": "./lib/http-mock.js",
   "engines": {
     "node": ">=0.6"
+  },
+  "dependencies": {
+    "mime": "1.2.5"
   }
 }
